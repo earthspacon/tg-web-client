@@ -4,8 +4,8 @@ import TdClient from 'tdweb'
 
 import { App } from './app'
 
-const apiId = 26475872
-const apiHash = 'd1987043ac73062b66e6086c52b3a7d4'
+const apiId = 264
+const apiHash = 'd1987043ac73062b66e608
 
 createRoot(document.querySelector('#root')!).render(
   <StrictMode>
@@ -36,7 +36,7 @@ await tdClient.send({
 
 await tdClient.send({
   '@type': 'checkDatabaseEncryptionKey',
-  phone_number_: '+998901334729',
+  phone_number_: '',
 })
 
 tdClient.send({
