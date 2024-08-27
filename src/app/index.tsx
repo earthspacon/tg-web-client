@@ -41,7 +41,7 @@ await tdClient.send({
 
 tdClient.send({
   '@type': 'setAuthenticationPhoneNumber',
-  phone_number_: '+998901334729',
+  phone_number_: '',
 })
 
 console.log({ tdClientInstance: tdClient })
